@@ -5,7 +5,7 @@
 ![TweetDetailViewController](https://github.com/ebarquin/twitterAtabix/blob/master/ViewControllers/TweetDetailViewController.png?raw=true)
 ![UserDetailViewController](https://github.com/ebarquin/twitterAtabix/blob/master/ViewControllers/UserDetailViewController.png?raw=true)
 
-iOS app developed in XCode 10.2 with Swift 3.0. TwitterAtabix is basically a tweeter reader that using Twitter API gets the timeline of the user. It also provides the option to save tweets in Core Data, so they are available offline.
+iOS app developed in XCode 8.2 with Swift 3.0. TwitterAtabix is basically a tweeter reader that using Twitter API gets the timeline of the user. It also provides the option to save tweets in Core Data, so they are available offline.
 
 I decided to use two different layers to deal with data, RemoteTwitterAPIService and LocalCoreDataService
 
