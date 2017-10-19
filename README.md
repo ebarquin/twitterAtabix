@@ -1,5 +1,5 @@
 # TWITTERATABIX
-##BASIC INFORMATION
+## BASIC INFORMATION
 
 ![TimeLineViewController](https://github.com/ebarquin/twitterAtabix/blob/master/ViewControllers/TimeLineViewController.png?raw=true)
 ![TweetDetailViewController](https://github.com/ebarquin/twitterAtabix/blob/master/ViewControllers/TweetDetailViewController.png?raw=true)
@@ -9,23 +9,23 @@ iOS app developed in XCode 10.2 with Swift 3.0. TwitterAtabix is basically a twe
 
 I decided to use two different layers to deal with data, RemoteTwitterAPIService and LocalCoreDataService
 
-####RemoteTwitterAPIService 
+#### RemoteTwitterAPIService 
 
 It has the implementation  to connect with Twitter API, to get not only the timeline of the user, but also the profile's owner of selected tweet. Twitter API Authentication is done by ACAccountStore.
 
-####LocalCoreDataService
+#### LocalCoreDataService
 
 It has the implementation to deal with CoreData. Aditionally using NotificationCenter I also implement a badget that provides information about the number of tweets stored in Core Data.
 
 
 
 ## DEPENDENCIES
-###CocoaPods
+### CocoaPods
 
-####SwiftyJSON
+#### SwiftyJSON
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) is a super-simplified JSON parsing library that gives you clearer syntax than the built-in iOS libraries, and better yet it's completely free.
 
-####KingFisher
+#### KingFisher
 [Kingfisher](https://github.com/onevcat/Kingfisher) is a lightweight, pure-Swift library for downloading and caching images from the web. This project is heavily inspired by the popular SDWebImage. It provides you a chance to use a pure-Swift alternative in your next app.
 
 
@@ -97,7 +97,7 @@ Integrating client project
 ---
 
 
-###ACAccountStore
+### ACAccountStore
 
 The [ACAccountStore](https://developer.apple.com/documentation/accounts/acaccountstore) class provides an interface for accessing, manipulating, and storing accounts. To create and retrieve accounts from the Accounts database, you must create an ACAccountStore object. Each 
 ACAccount object belongs to a single ACAccountStore object.
